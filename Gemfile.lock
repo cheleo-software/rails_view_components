@@ -2,7 +2,8 @@ PATH
   remote: .
   specs:
     liponahatso (0.1.0)
-      rails (>= 8.0.2)
+      rails (>= 7.0)
+      view_component (>= 3.0)
 
 GEM
   remote: https://rubygems.org/
