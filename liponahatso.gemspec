@@ -6,13 +6,9 @@ Gem::Specification.new do |spec|
   spec.authors     = [ "Thato Semoko" ]
   spec.email       = [ "thatosmk@gmail.com" ]
   spec.homepage    = "https://thato.semoko.co.za"
-  spec.summary     = "List of view components"
-  spec.description = "Description of Liponahatso."
+  spec.summary     = "Resuable custom view components for Rails"
+  spec.description = "UI Components for Rails applications"
   spec.license     = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  spec.metadata["allowed_push_host"] = "Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com"
@@ -24,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", ">= 7.0"
   spec.add_dependency "view_component", ">= 3.0"
+  spec.add_dependency "dry-initializer", ">=3.0"
 end

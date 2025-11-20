@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Tell Tailwind where to find content for this engine */
+@source "../../../components/liponahatso/**/*.{rb,html.erb}";
+@source "../../../views/liponahatso/**/*.{html.erb}";
+@source "../../../helpers/liponahatso/**/*.rb";
