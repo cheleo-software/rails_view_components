@@ -2,6 +2,6 @@
 
 module Liponahatso
   class ApplicationComponent < ViewComponent::Base
-    extend Dry::Initializer
+    extend ::Dry::Initializer
   end
 end

@@ -12,4 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *
+ * Component CSS files - these are automatically discovered via asset paths
+ * but can be explicitly required if needed
  */

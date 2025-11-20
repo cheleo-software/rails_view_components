@@ -1,3 +1,4 @@
+require "dry/initializer"
 require "liponahatso/version"
 require "liponahatso/engine"
 
